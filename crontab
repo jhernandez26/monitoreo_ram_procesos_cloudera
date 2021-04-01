@@ -1,0 +1,2 @@
+*/5 * * * *  sh /home/b945480/memory_report/memory /home/b945480/memory_report/report/$(hostname).csv >/dev/null 2>&1
+*/5 * * * *  sh /home/b945480/memory_report/prometheus/memory.sh  >/dev/null 2>&1
