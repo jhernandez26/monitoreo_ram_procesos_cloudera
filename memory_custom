@@ -1,0 +1,10 @@
+/home/b945480/memory_report/report/{log_file} {
+        daily
+        missingok
+        rotate 7
+        dateext
+        compress
+        delaycompress
+        compressext .gz
+        copytruncate
+}
